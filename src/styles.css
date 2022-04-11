@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  font-family: "Poppins" !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h3 {
+  color: black;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(38, 110, 55, 0.612);
+  padding: 20px;
+  margin : 20px;
+  border-radius: 20px;
+}
+
+p {
+  color: black;
+  font-size: 18px;
+}
+ h2 {
+  color: gray;
+  font-size: 22px;
+}
+img {
+  border-radius: 12px;
+
+}
+
+.judul {
+  text-align : center;
+  font-weight: bolder;
+  margin: 20px;
+}
+
+.card button:hover {
+  opacity: 0.9;
+}
+.search {
+  margin: 15px;
+  text-align: right;
+}
+.search-text {
+  margin-right: 10px;
+}
+button {
+  display: flex;
+  border-radius: 8px;
+  border: none;
+  padding : 8px 18px;
+  align-items: flex-end;
+}
+.btn-info {
+  background-color : rgb(211, 15, 107) !important;
+}
